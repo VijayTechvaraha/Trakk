@@ -112,6 +112,8 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerC
     private fun getURL(from : LatLng, to : LatLng) : String {
         val origin = "origin=" + from.latitude + "," + from.longitude
         val dest = "destination=" + to.latitude + "," + to.longitude
+
+        print("vijay")
         val sensor = "sensor=false"
         val key = "key=AIzaSyBb6cxCWaw2L3-PVlJ0e53O5yGgXqqexQA"
         val params = "$origin&$dest&$sensor&$key"
