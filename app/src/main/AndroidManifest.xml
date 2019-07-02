@@ -14,13 +14,15 @@
             android:theme="@style/AppTheme">
         <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBb6cxCWaw2L3-PVlJ0e53O5yGgXqqexQA"/>
         <activity android:name=".Actvities.MapActivity">
+
+        </activity>
+        <activity android:name=".Actvities.MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".Actvities.MainActivity">
 
         </activity>
     </application>

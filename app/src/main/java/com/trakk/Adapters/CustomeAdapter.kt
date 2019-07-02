@@ -26,6 +26,7 @@ class CustomeAdapter(val items: ArrayList<String>, val context: Context) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder?.tvAnimalType?.text = items.get(position)
+
     }
 }
 
